@@ -24,5 +24,5 @@ func main() {
 
 func index(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "Application/json")
-	json.NewEncoder(w).Encode(map[string]interface{}{"ok": true, "commit_ver": 11})
+	json.NewEncoder(w).Encode(map[string]interface{}{"ok": true, "commit_ver": 12})
 }
